@@ -4,18 +4,17 @@
 using namespace std;
 
 int main() {
-    string nombre;
-    int edad;
+    string email;
+    string telefono;
 
-    cout << "Ingrese su nombre: ";
-    getline(cin, nombre);
+    cout << "Ingrese su email: ";
+    getline(cin, email);
 
-    cout << "Ingrese su edad: ";
-    cin >> edad;
-    cin.ignore();
+    cout << "Ingrese su teléfono: ";
+    getline(cin, telefono);
 
-    cout << "Nombre: " << nombre << endl;
-    cout << "Edad: " << edad << endl;
+    cout << "Email: " << email << endl;
+    cout << "Teléfono: " << telefono << endl;
 
     return 0;
 }
