@@ -5,13 +5,19 @@ using namespace std;
 
 int main() {
     string nombre;
-
-    cout << "Ingrese su nombre: ";
-    getline(cin, nombre);
-
-    
+    string email;
+    string telefono;    
 
     cout << "Nombre: " << nombre << endl;
+  
+    cout << "Ingrese su email: ";
+    getline(cin, email);
 
-  return 0;
+    cout << "Ingrese su teléfono: ";
+    getline(cin, telefono);
+
+    cout << "Email: " << email << endl;
+    cout << "Teléfono: " << telefono << endl;
+
+    return 0;
 }
