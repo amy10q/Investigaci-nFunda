@@ -3,11 +3,24 @@
 
 using namespace std;
 
-int main() {
+int mainn(){
 
     string nombre;
     cout << "Ingrese su nombre: ";
     getline(cin, nombre);
     cout << "Nombre: " << nombre << endl;
+
+    string email;
+    string telefono;    
+  
+    cout << "Ingrese su email: ";
+    getline(cin, email);
+
+    cout << "Ingrese su teléfono: ";
+    getline(cin, telefono);
+
+    cout << "Email: " << email << endl;
+    cout << "Teléfono: " << telefono << endl;
+  
     return 0;
 }
