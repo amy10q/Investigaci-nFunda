@@ -8,9 +8,6 @@ int main() {
 
     cout << "Ingrese su nombre: ";
     getline(cin, nombre);
-
-    
-
     cout << "Nombre: " << nombre << endl;
 
   return 0;
