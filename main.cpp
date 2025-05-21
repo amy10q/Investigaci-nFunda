@@ -15,7 +15,7 @@ int main() {
     cin.ignore();
 
     cout << "Nombre: " << nombre << endl;
-    cout << "Edad: " << edad << endl;
+    cout << "Edad: " << edad << endl
 
     return 0;
 }
