@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int mainn(){
+int main(){
 
     string nombre;
     cout << "Ingrese su nombre: ";
