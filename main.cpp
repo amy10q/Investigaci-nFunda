@@ -7,7 +7,9 @@ int main() {
     string email;
     string telefono;
 
-    cout << "Ingrese su email: "
+    cout << "------------------":
+
+    cout << "Ingrese su email: ";
     getline(cin, email);
 
     cout << "Ingrese su teléfono: ";
