@@ -13,5 +13,5 @@ int main() {
 
     cout << "Nombre: " << nombre << endl;
 
-    return 0;
+  return 0;
 }
