@@ -14,7 +14,7 @@ int main() {
     getline(cin, telefono);
 
     cout << "Email: " << email << endl;
-    cout << "Teléfono: " << telefono << endl
+    cout << "Teléfono: " << telefono << endl;
 
     return 0;
 }
