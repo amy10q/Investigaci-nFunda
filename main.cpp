@@ -7,7 +7,7 @@ int main() {
     string nombre;
     int edad;
 
-    cout << "------------------------" << endl:
+    cout
 
     cout << "Ingrese su nombre: ";
     getline(cin, nombre);
@@ -16,15 +16,8 @@ int main() {
     cin >> edad;
     cin.ignore();
 
-    cout << "------------------------" << endl;
-
-    cout << "------------------------";
-    cout << "------------------------":
-
     cout << "Nombre: " << nombre << endl;
     cout << "Edad: " << edad << endl;
-
-    cout << "------------------------" << endl;
 
     return 0;
 }
