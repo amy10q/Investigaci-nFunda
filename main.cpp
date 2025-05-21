@@ -4,11 +4,8 @@
 using namespace std;
 
 int main() {
-    string nombre;
     string email;
     string telefono;    
-
-    cout << "Nombre: " << nombre << endl;
   
     cout << "Ingrese su email: ";
     getline(cin, email);
