@@ -4,11 +4,10 @@
 using namespace std;
 
 int main() {
-    string nombre;
 
+    string nombre;
     cout << "Ingrese su nombre: ";
     getline(cin, nombre);
     cout << "Nombre: " << nombre << endl;
-
-  return 0;
+    return 0;
 }
