@@ -1,3 +1,5 @@
+// Programa de registro sencillo
+
 #include <iostream>
 #include <string>
 
