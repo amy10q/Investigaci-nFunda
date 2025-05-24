@@ -19,7 +19,7 @@ int mainn(){
     cout << "Ingrese su teléfono: ";
     getline(cin, telefono);
 
-    cout << "Email: " << email << endl;
+    cout << "Sun email es: " << email << endl;
     cout << "Teléfono: " << telefono << endl;
   
     return 0;
