@@ -21,7 +21,8 @@ int main(){
     cout << "Ingrese su teléfono: ";
     getline(cin, telefono);
 
-    cout << "Sun email es: " << email << endl;
+    cout << "Su correo electronico: " << email << endl;
+    
     cout << "Teléfono: " << telefono << endl;
   
     return 0;
